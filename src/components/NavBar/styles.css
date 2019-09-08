@@ -1,0 +1,36 @@
+.nav_box {
+  width: 60%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.logo_box {
+  width: 80px;
+  height: 80px;
+  background-color: #cccccc;
+}
+
+.nav_list {
+  display: flex;
+  align-items: center;
+}
+
+
+.link_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+  margin: 0 20px;
+  color: #666666;
+  padding: 10px;
+}
+
+.active {
+  background-color: #0199E4;
+  color: white;
+}

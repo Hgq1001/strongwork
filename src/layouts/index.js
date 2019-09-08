@@ -1,9 +1,11 @@
+import React from 'react';
 import styles from './index.css';
+import NavBar from '@/components/NavBar/NavBar';
 
 function BasicLayout(props) {
   return (
-    <div className={styles.normal}>
-      <h1 className={styles.title}>Yay! Welcome to umi!</h1>
+    <div className={styles.container}>
+      <NavBar {...props}/>
       {props.children}
     </div>
   );

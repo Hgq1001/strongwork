@@ -8,8 +8,9 @@ import styles from './ProductService.css';
 
 const ProductService = () => {
   return (
-    <div>
-
+    <div className={'container'}>
+      <img src={require('../../assets/images/productService/banner.jpg')} height={'650px'} width={'100%'} alt=""/>
+      <img src={require('../../assets/images/productService/product.jpg')} height={'100%'} width={'100%'} alt=""/>
     </div>
   );
 };

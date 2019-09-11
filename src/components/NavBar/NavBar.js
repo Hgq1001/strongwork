@@ -24,7 +24,8 @@ const NavBar = (props) => {
 
   return (
     <div className={styles.nav_box}>
-      <div className={styles.logo_box}></div>
+      {/*<div className={styles.logo_box}></div>*/}
+      <img src={require('../../assets/images/navbar/logo.png')} width={'170px'} height={'130px'} alt=""/>
       <div className={styles.nav_list}>
         {NavBarInfo.map((nav, index) => {
           return <Link to={nav.path}>

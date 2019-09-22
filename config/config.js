@@ -8,7 +8,7 @@ export default {
       antd: true,
       dva: true,
       dynamicImport: { webpackChunkName: true },
-      title: '仕壮沃科电子商务有限公司',
+      title: '仕壮沃科（重庆）电子商务有限公司',
       dll: true,
     }],
   ],

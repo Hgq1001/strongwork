@@ -53,7 +53,7 @@ export default function Footer() {
       </div>
       <div className={styles.separate_line}/>
       <div className={styles.footer_bottom}>
-        <p>copyright 仕壮沃科（重庆）电子商务有限公司 2017-2019</p>
+        <p>仕壮沃科（重庆）电子商务有限公司 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;渝ICP备19003577号</p>
       </div>
     </div>
   );
